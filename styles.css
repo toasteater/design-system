@@ -1,0 +1,105 @@
+body{
+    margin: 15px;
+    padding: auto;
+    font-family: 'Raleway', sans-serif;
+    overflow: auto;
+}
+
+.main-h1{
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+.container{
+    border: 2px solid #808080;
+    padding: 10px;
+    margin: 10px auto;
+}
+
+.color-container{
+    width: 100%;
+    margin-left: 10px;
+}
+
+.color-panel{
+    display: inline-block;
+    width: 32%;
+    text-align: center;
+    margin: 10px auto;
+    min-height: 100px;
+    
+}
+
+.golden-yellow{
+    background-color: #f7b511;
+    color: black;
+}
+
+.blue-black{
+    background-color: #1e1e1e;
+    color: white;
+}
+
+.red-gray{
+    background-color: #808080;
+    color: black;
+}
+
+.maroon{
+    background-color: #420420;
+    color: white;
+}
+
+.font-container{
+    width: 45%;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.font-label{
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.regular{
+    font-style: normal;
+}
+
+.italic{
+    font-style: italic;
+}
+
+.bold{
+    font-weight: 700;
+}
+
+.robo-mono{
+    font-family: 'Roboto Mono', monospace;
+}
+
+.raleway{
+    font-family: 'Raleway', sans-serif;
+}
+
+.playfair-display{
+    font-family: 'Playfair Display', serif;
+}
+
+.text-panel h1{
+    font-weight: 700;
+    font-size: 32px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.text-panel h2{
+    font-weight: 520;
+    font-size: 18px;
+    font-family: 'Playfair Display', serif;
+}
+
+.text-panel p{
+    font-weight: 400;
+    font-size: 14px;
+    font-family: 'Roboto Mono', monospace;
+}
